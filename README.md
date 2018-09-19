@@ -14,6 +14,8 @@ Vagrant command
 
 * vagran up -> this will start virtual machine
 * vagran ssh -> this will log inside linux virtual box where aerospike is runnning and you can use tool such as aql, asadm etc.
+7. To stop remote machine where aerospike is running run below command 
+* vagrant halt
 
 Check Aerospike status and start using below commands
 
