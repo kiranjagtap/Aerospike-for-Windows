@@ -1,4 +1,4 @@
-# Aerospike-for-Windows
+# Aerospike for Windows
 This will help you how to install and run Aerospike on windows machine
 1. install vagrant from https://www.vagrantup.com/downloads.html
 2. install virtualbox for windows
@@ -36,6 +36,6 @@ one popup will launch mention hotstname = localhost and click ok, this will laun
 
 aql->
 
-insert into test.testset (pk,name) values('Kiran','Jagtap')
-set output json
-table
+* insert into test.testset (pk,name) values('Kiran','Jagtap')
+* set output json
+* set output table
