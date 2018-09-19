@@ -1,19 +1,18 @@
 # Aerospike-for-Windows
 This will help you how to install and run Aerospike on windows machine
-install vagrant from https://www.vagrantup.com/downloads.html
-install virtualbox for windows
+1. install vagrant from https://www.vagrantup.com/downloads.html
+2. install virtualbox for windows
 
-mkdir aerospike-vm
-cd aerospike-vm
+3. mkdir aerospike-vm
+4. cd aerospike-vm
 
-vagrant init aerospike/aerospike-ce
+5. vagrant init aerospike/aerospike-ce
 
-vagrant up
+6. vagrant up
 
 --------------vagrant command-----------------------------
 vagran up -> this will start virtual machine
 vagran ssh -> this will log inside linux virtual box
-	     ]]'
 ]\where aerospike is runnning and you can use tool such as aql, asadm etc.
 
 -------------------------------------------
